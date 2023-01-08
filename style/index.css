@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+.header{
+    width: 1600px;
+    height: 800px;
+    background-image: url(../image/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom,left top;  
+    
+}
+/* Banner style */
+
+.banner{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: right;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    margin-right: 100px;
+    
+}
+.banner-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    bottom: 40%;
+    font-weight: 400;
+    line-height: 26px;
+    width: 349px;
+    text-align: right;
+}
+.banner-sub-title{
+    gap: 10px;
+}
+/* button */
+.btn-primary{
+    text-align: right;
+    background-color: #FFFFFF;
+    border: none;
+    color: blue;
+    font-size: 64px;
+    font-weight: 160;
+    gap: 20px;
+    
+}
+
+/* Main */
+/* .img{
+    width: 400px;
+    height: 723px;
+    left: 228px;
+    top: 982px;
+    position: absolute;
+    
+} */
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    text-align: right;
+    position: absolute;
+    left: 800px;
+    top: 1050px;
+    
+}
+.section-sub-title{
+    
+position: absolute;
+width: 416px;
+height: 104px;
+left: 850px;
+top: 1200px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    position: absolute;
+    width: 349px;
+    height: 162px;
+    left: 700px;
+    top: 1300px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+} 
+/* My plan */
+
+/* .plan-title{
+    left: 765px;
+    top: 1792px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    justify-content: right;
+}
+/* What I Do */
+/* .img{
+    justify-content: center;
+}
+
+.skill-container{
+    display: flex;
+}
+.skill{
+    color: #0b0202;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+   
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-top: 20px;
+}
+.skill-description{
+    color: #757575; 
+} */
+/* footer *//* future */
+.future{
+    display: flex;
+    background-color: #FFFFFF;
+   
+}
+.future-title{
+    right: 765px;
+    top: 1792px;
+    font-weight: 700;
+    font-size: 40px;
+   
+    justify-content: right;
+}
+
+.future-description{
+    right: 765px;
+    top: 1792px;
+    font-weight: 700;
+    font-size: 20px;
+   
+    justify-content: right;
+}
+
+/* ....................... */
+.person{
+    display: flex;
+    padding: 70px;
+   
+}
+
+.person-info{
+    padding-top: 300px;
+    padding-left: 70px;
+    font-size: 20px;
+}
+.tittle{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.plans{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 600px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.plan{
+    display: flex;
+}
+.plan-title{
+    padding-left: 150px;
+    text-align: justify;
+}
+.background-watch{
+    background:url(../images/watch.png);
+    
+
+    width: 80vw;
+    height: 80vh;
+   margin-left: 150px;
+   margin-top: 200px;
+   border-radius: 25px;
+   
+    background-repeat: no-repeat;
+   
+
+}
+
+
+.background-watch-text{
+    background:url('../image/watch.png');
+    opacity: 0.8;
+    width: 80vw;
+    height: 80vh;
+   margin-top: 200px;
+   
+    background-repeat: no-repeat;
+   
+
+}
+
+
+
+
+
+.watch-description{
+    font-size: 45px;
+    color:black;
+}
+.call{
+    font-size: 30px;
+    background-color: white;
+    color: blue;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.fotter{
+    display: flex;
+    padding-top: 200px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+
+}
+.future{
+   font-size: 50px;
+   color: red;
+   
+}
+.fotter-des{
+    width: 500px;
+}
+.sub{
+  
+  font-size: 50px;
+  
+}
+.subscribe{
+    padding-left: 300px;
+}
+.footer-future{
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+   .btn{
+    background-color: blue;
+    font-size: 30px;
+    padding: 5px;
+   }
